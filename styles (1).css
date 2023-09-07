@@ -1,0 +1,167 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* .abcd{
+    align-items: center;
+} */
+.navbar {
+    background-color: #f9f6f6;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	display: flex;
+    align-items: center;
+}
+
+.abcd  li a{
+    text-decoration: none;
+    color: #080000;
+    padding: 15px 20px;
+    
+}
+
+
+.abcd  li a:hover {
+    background-color: #555;
+}
+.Image1{
+    width: 100%;
+    height: 60%;
+    padding: 0%;
+    
+}
+.gfg {
+    position: relative;
+}
+.text-container{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 5rem;
+    top: 14rem;
+    background-color: rgba(189, 41, 41, 0.8);
+    padding: 0 1rem;
+    width: 50%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-color: #000102;
+    background-color: #fdfeff; /* Blue background color */
+    border-radius: 50%; /* Create a circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the phone icon */
+.phone-icon {
+    color: rgb(2, 0, 0); /* Icon color */
+    font-size: 24px; /* Icon size */
+    cursor: pointer;
+
+}
+
+.cart-icon {
+    font-size: 24px; /* Icon size */
+    cursor: pointer;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+    display: flex;
+justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+  text-align: center;
+  background-color: #fcfafa;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+ 
+  margin-right: 10%;
+  height:80%;
+  align-items: center;
+
+}
+
+.image2{
+    height:50%;
+    width: 80%;
+    border-top-right-radius: 35%;
+    margin-top:5%;
+    
+
+}
+.class{
+    text-align: center;
+}
+
+
+.abc{
+    background-image: linear-gradient(to right, rgb(237, 89, 210), yellow);
+}
+.hra{
+    margin-top: 4%;
+    
+    height: 10px;
+    background-color: #f9f6f6;
+}
+.but{display: flex;
+    padding-bottom: 4%;justify-content: center;
+    box-shadow: none;
+}
+.bus{
+   background-color: #a8a1a8;
+   justify-content: center;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 3%;
+   padding-right: 3%;
+   border-radius:540px;
+  border-color: #a8a1a8 ;
+ 
+}
