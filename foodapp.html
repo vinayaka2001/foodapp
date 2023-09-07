@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\hp\OneDrive\Desktop\food app\styles (1).css"> <!-- Assuming your CSS file is in the same directory as your HTML file -->
+    <title>simpotel</title>
+    <style>
+       
+        /* Reset some styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Your existing styles... */
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .abcd {
+                justify-content: center;
+            }
+            .navbar ul li {
+                margin-right: 15px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbar ul {
+                flex-direction: column;
+            }
+            .navbar ul li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .navbar ul li:last-child {
+                margin-bottom: 0;
+            }
+            .navbar ul li a {
+                padding: 10px 0;
+                text-align: center;
+            }
+            .gfg {
+                text-align: center;
+            }
+            .text-container {
+                position: relative;
+                color: rgb(255, 255, 255);
+                left: 0;
+                top: 0;
+                background-color: rgba(189, 41, 41, 0.8);
+                padding: 1rem;
+                width: 100%;
+            }
+            .image2 {
+                height: auto;
+                width: 100%;
+                border-top-right-radius: 0;
+                margin-top: 5%;
+            }
+            .row {
+                flex-direction: column;
+            }
+            .card {
+                width: 100%;
+                margin-right: 0;
+                height: auto;
+            }
+            .but {
+                padding-bottom: 4%;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="abc">
+        <section class="fnavbar">
+            <div class="navbar">
+                <nav>
+                    <div>
+                        <ul class="abcd">
+                            <li style="margin-left: 20%;"><a href="">Home</a></li>
+                            <li><a href="" >Order</a></li>
+                            <li><a href="" >Food</a></li>
+                            <li><a href="" >Restaurant</a></li>
+                            <li><a href="" >Testimonials</a></li>
+                            <li><a href="" >Contact Us</a></li>
+                            <li style="margin-left: 20%;">
+                                <div class="circle">
+                                    <span class="phone-icon">&#9742;</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cart-icon">&#128722;</div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <div class="gfg">
+            <img class="Image1" src="WhatsApp Image 2023-09-07 at 3.03.49 PM.jpeg" alt="abc"> <!-- Update image path -->
+            <div class="text-container">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officiis delectus rem praesentium dolore, debitis placeat. Dicta ratione modi unde vel minus temporibus est, natus, porro illum ut quaerat quod?</p>
+            </div>
+        </div>
+        <div class="abc">
+            <hr class="hra">
+            <h1 style="text-align: center; color: #f9f6f6; margin-bottom: 5%;">Order Now</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img class="image2" src="1a.jpg" alt=""> <!-- Update image path -->
+                        <h3 class="para">BURGER</h3>
+                        <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img class="image2" src="1c.jpg" alt=""> <!-- Update image path -->
+                        <h3 class="para">PIZZA</h3>
+                        <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img class="image2" src="1b.jpg" alt=""> <!-- Update image path -->
+                        <h3 class="para">PASTA</h3>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="but">
+                <button class="bus"><b>Order</b></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
